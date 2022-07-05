@@ -13,14 +13,17 @@ h3{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
     width: 80%;
     padding-top: 15%;
+    padding-bottom: 6%;
 }
 .link-button{
     text-decoration: none;
@@ -34,6 +37,16 @@ section{
     background-image: url(developer-portfolio-master/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-big{
+    background-image: url(developer-portfolio-master/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+} 
+.dream-big{
+    padding-right: 10%;
+}
+    
+
 
 
 
