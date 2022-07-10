@@ -11,7 +11,7 @@ h1{font-size: 50px;
 h3{
     font-size: 30px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -44,6 +44,27 @@ section{
 } 
 .dream-big{
     padding-right: 10%;
+}
+.experience-area{
+    background-image: url(developer-portfolio-master/exp-bg.png);
+    background-repeat: no-repeat;background-position: left;
+}
+.experience-area h1{
+    padding-left: 10%;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%
+}
+#full-stack-developer{
+    border-left:7px solid tomato ;
+}
+#baby-web-developer{
+    border-left:7px solid blue ;
+}
+footer p{
+    text-align: center;
 }
     
 
